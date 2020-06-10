@@ -84,6 +84,7 @@ That's quite a few steps but it should be pretty smooth.  You may need other lib
 It has only been hand tested on Ubuntu 18.04 with bash.  Bug reports, pull requests and suggestions are welcome.
 
 ### Be warned, the code has not been audited and is experimental software.  Do not use it if your safety depends upon it's security.
+If you care about about that then you should probably be using (Minisign)[https://github.com/jedisct1/minisign], or (age)[https://github.com/FiloSottile/age] or if necessary (PGP)[https://www.openpgp.org/]
 
 You may be able to draw some interesting comparisons between the usage of libsodium vs gpg utilities with the following two files:
 
