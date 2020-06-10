@@ -1,0 +1,9 @@
+[submodule "fmt"]
+	path = fmt
+	url = https://github.com/fmtlib/fmt.git
+[submodule "rapidjson"]
+	path = rapidjson
+	url = https://github.com/Tencent/rapidjson.git
+[submodule "libsodium"]
+	path = libsodium
+	url = https://github.com/jedisct1/libsodium.git
