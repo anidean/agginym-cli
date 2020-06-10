@@ -18,7 +18,7 @@ Usage:
                       --create [name]
 
       --inspect     - This is used to inspect any key or keypair specified.  No other commands will run if this is defined.
-                      Either --file or --key is required but only one at a time.   **NOTE** ONLY THE PUBLIC KEY SHOULD EVER BE SHARED.  Seriously, don't share the whole thing. Just copy and paste the thing publicKey.
+                      Either --file or --key is required but only one at a time.   **NOTE** ONLY THE PUBLIC KEY SHOULD EVER BE SHARED.  Seriously, don't share the whole thing. Just copy and paste the publicKey.
                       --inspect --file [keypair.json], or --inspect --key [private or publickey string]
 
       --fingerprint - This prints the fingerprint of the key.  Requires either --key or --keypair.  It's a base58 representation.  Only works with a public key
@@ -83,7 +83,7 @@ That's quite a few steps but it should be pretty smooth.  You may need other lib
 
 It has only been hand tested on Ubuntu 18.04 with bash.  Bug reports, pull requests and suggestions are welcome.
 
-### Be warned, the code has not been audited and is experimental software.  Do not use it if your safety depends upon it's security.
+### Be warned, the code has not been audited and is experimental software.  Do not use it if your safety depends upon its security.
 If you care about about that then you should probably be using (Minisign)[https://github.com/jedisct1/minisign], or (age)[https://github.com/FiloSottile/age] or if necessary (PGP)[https://www.openpgp.org/]
 
 You may be able to draw some interesting comparisons between the usage of libsodium vs gpg utilities with the following two files:
