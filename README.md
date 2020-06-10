@@ -81,7 +81,11 @@ make
 
 That's quite a few steps but it should be pretty smooth.  You may need other libraries to get those dependencies working. 
 
-
 It has only been hand tested on Ubuntu 18.04 with bash.  Bug reports, pull requests and suggestions are welcome.
 
 ### Be warned, the code has not been audited and is experimental software.  Do not use it if your safety depends upon it's security.
+
+You may be able to draw some interesting comparisons between the usage of libsodium vs gpg utilities with the following two files:
+
+[GPGME synchronous experimental code](https://gist.github.com/anidean/aaf803fdb68a2bc22994762d74a879d2)
+[Sequoia PGP experimental code](https://gist.github.com/anidean/dc3b4dd75ae6259cfb317c2918950ca0)
